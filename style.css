@@ -1,0 +1,66 @@
+body{
+	font-family: "myriadproregular";	
+	margin:0;
+	padding:0;
+	font-size: 17px;
+}
+.name-top{
+	font-size: 57px;
+}
+.surname-top{
+	font-size: 68px;
+}
+.left-column{
+	width: 543px;
+	border:1px solid red;
+}
+.right-column{
+	width: 629px;
+	border:1px solid red;
+}
+.big-words{
+	font-size: 28.57px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--1.815-->
+
+
+	@font-face {
+			font-family: "MyriadProRegular";
+			src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+			src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+			url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	} 	
+	@font-face {
+			font-family: "MyriadProBold";
+			src: url("../fonts/MyriadProBold/MyriadProBold.eot");
+			src: url("../fonts/MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
+			url("../fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
