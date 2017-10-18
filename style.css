@@ -4,11 +4,18 @@ body{
 	padding:0;
 	font-size: 17px;
 }
+
 .name-top{
+	font-family: "myriad pro";
+	font-weight: 100;
 	font-size: 57px;
+	margin-left: 156px;
+	margin-bottom: 0;
 }
 .surname-top{
 	font-size: 68px;
+	margin-left: 150px;
+	margin-top: 0
 }
 .left-column{
 	width: 543px;
@@ -22,8 +29,70 @@ body{
 	font-size: 28.57px;
 }
 
+.round-top{
+	left: 176px;
+	top: 97px;
+	
+}
+.Elipse_1 {
+  border-width: 1.125px;
+  border-color: rgb(61, 108, 176);
+  border-style: solid;
+  border-radius: 50%;
+  width: 254.75px;
+  height: 253.75px;
+	margin-left: 176px;
+	margin-top: 97px;
+}
+.Elipse_1_copia {
+  border-radius: 50%;
+  background-color: rgb(61, 108, 176);
+  width: 224px;
+  height: 224px;
+	margin: 16px
+}
 
+.sprite {
+    background-image: url(img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
 
+.sprite-EDUCATION-ICON {
+    width: 82px;
+    height: 79px;
+    background-position: -5px -5px;
+}
+
+.sprite-EXPERIENCE-ICON {
+    width: 84px;
+    height: 82px;
+    background-position: -97px -5px;
+}
+
+.sprite-PROFILE-ICON {
+    width: 82px;
+    height: 79px;
+    background-position: -5px -97px;
+}
+
+.sprite-Phone-Icon {
+    width: 79px;
+    height: 79px;
+    background-position: -97px -97px;
+}
+
+.sprite-SKILLS-ICON {
+    width: 79px;
+    height: 79px;
+    background-position: -191px -5px;
+}
+
+.sprite-SOFTWARE-ICON {
+    width: 82px;
+    height: 79px;
+    background-position: -191px -94px;
+}
 
 
 
