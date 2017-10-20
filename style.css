@@ -11,9 +11,11 @@ ul{
 	font-family: "myriad pro";
 	font-weight: 100;
 	font-size: 57px;
-	margin-left: 156px;
+	margin-left: 153px;
 	margin-bottom: 0;
 	line-height: 54px;
+	letter-spacing: 1px;
+	margin-top: 35px;
 }
 .surname-top{
 	font-family: "myriad pro";
@@ -21,7 +23,7 @@ ul{
 	margin-left: 150px;
 	margin-top: 0;
 	margin-bottom: 0;
-	line-height: 62px;
+	line-height: 59px;
 }
 .master-degree{
 	color:rgb(61, 108, 176);
@@ -32,10 +34,13 @@ ul{
 	margin-left: 186px;
 	font-size: 27.5px;
 	line-height: 49.5px;
+	margin-top: 3px;
+	letter-spacing: -0.5px;
 	
 }
 .part-table{
 	display: table;
+	margin-top: 0px;
 }
 .part-name{
 	font-size: 45.3px;
@@ -51,7 +56,9 @@ ul{
 
 .software,
 .experience,
-.education,
+.education{
+	padding-left: 64px;	
+}
 .skills,
 .contacts,
 .profile{
@@ -62,6 +69,8 @@ ul{
 	width: 100px;
 	height: 5px;
 	background-color: rgb(61, 108, 176);
+	margin-left: 8px;
+	margin-top: 4px;
 	
 }
 
@@ -76,8 +85,9 @@ ul{
 	padding-left: 45px;
 }
 .contact-table{
-	
-	border-spacing: 0px 43px;
+	padding-top: 0;
+	border-spacing: 0px 0px;
+	margin-top: 19px
 }
 .contact-table tr {
 	height: 43px;
@@ -104,6 +114,7 @@ ul{
 }
 .big-words{
 	font-size: 28.57px;
+	margin: 0;
 }
 
 .round-top{
@@ -129,7 +140,8 @@ ul{
 	margin: 16px
 }
 .skill-padd{
-	margin-bottom: 32px;
+	margin-top: 34px;
+	margin-bottom: 27px;
 	
 }
 .skills .big-words{
@@ -143,12 +155,16 @@ margin-left: ;
     background-image: url(img/spritesheet.png);
     background-repeat: no-repeat;
     display: block;
+	margin-right: 12px;
 }
 
 .sprite-EDUCATION-ICON {
     width: 82px;
     height: 79px;
     background-position: -5px -5px;
+	margin-right: 20px;
+	margin-top: 3px;
+	
 }
 
 .sprite-EXPERIENCE-ICON {
@@ -163,12 +179,14 @@ margin-left: ;
     background-position: -5px -97px;
 	display: inline-block;
 	vertical-align: middle;
+	margin-top: 3px;
 }
 
 .sprite-Phone-Icon {
     width: 79px;
     height: 79px;
     background-position: -97px -97px;
+	margin-top: 3px;
 }
 
 .sprite-SKILLS-ICON {
@@ -204,7 +222,7 @@ margin-left: ;
 .sprite2 {
     background-image:url("img/spritesheet2.png");
     background-repeat: no-repeat;
-	margin-right: 11px;
+	margin-right: 8px;
 	display: inline-block;	
 }
 
@@ -239,3 +257,71 @@ margin-left: ;
 			font-style: normal;
 			font-weight: normal;
 	}
+.profile-paragraph {
+	margin-top: 13px;
+}
+
+.profile {
+	margin-top: 74px;
+}
+
+.contacts {
+	margin-top: 46px;
+}
+
+.contact-table td {
+	height: 58px;
+}
+
+
+
+
+
+
+
+.skill-bar {
+	margin-top: 9px;
+	margin-bottom: 18px;
+	text-align:left;
+	padding-left: 50px;
+}
+
+.skills-padding {
+	margin-right: 14px;
+}
+
+.education {
+		margin-top: 80px;
+}
+
+.education-list li {
+	padding-left: 18px;
+}
+
+
+
+.education-span {
+	
+}
+
+.edication-padding {
+	padding-bottom: 0;
+}
+
+
+
+.education-paragraph {
+	margin:0;
+	margin-top: 7px;
+}
+
+.education-list li {
+	margin-top: 18px;
+}
+.education-list li:first-child {
+	margin-top: 28px;
+}
+
+.education-list {
+	margin-top: 26px;
+}
