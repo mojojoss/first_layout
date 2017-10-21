@@ -28,6 +28,8 @@ ul{
 .master-degree{
 	color:rgb(61, 108, 176);
 	font-weight: bold;
+	margin-right: 8px;
+	line-height: 38px;
 }
 .designer-top{
 	margin:0;
@@ -41,6 +43,8 @@ ul{
 .part-table{
 	display: table;
 	margin-top: 0px;
+	overflow-x: hidden;
+	display: block;
 }
 .part-name{
 	font-size: 45.3px;
@@ -52,6 +56,7 @@ ul{
 }
 .fl-left{
 	float: left;
+	padding-bottom: 16px;
 }
 
 .software,
@@ -66,7 +71,7 @@ ul{
 }
 
 .line{
-	width: 100px;
+	width: 400px;
 	height: 5px;
 	background-color: rgb(61, 108, 176);
 	margin-left: 8px;
@@ -95,22 +100,23 @@ ul{
 .cell{
 	display: table-cell;
 	vertical-align: middle;
+	
 }
 .icon-cell-width{
 	width: 84px;
 }
 .left-column{
-	width: 543px;
+	width: 524px;
 /*	border:1px solid red;*/
 	float: left;
-	
+
 }
 .right-column{
 	
 /*	border:1px solid red;*/
 	float: left;
-	min-width: 543px;
-	max-width: 768px;
+	min-width: 543px ;
+	max-width: 768px ;
 }
 .big-words{
 	font-size: 28.57px;
@@ -171,6 +177,7 @@ margin-left: ;
     width: 84px;
     height: 82px;
     background-position: -97px -5px;
+	margin-right: 18px;
 }
 
 .sprite-PROFILE-ICON {
@@ -199,6 +206,7 @@ margin-left: ;
     width: 82px;
     height: 79px;
     background-position: -191px -94px;
+	margin-right: 20px;
 }
 
 
@@ -296,13 +304,14 @@ margin-left: ;
 
 .education-list li {
 	padding-left: 18px;
+	margin-bottom: 11px;
+	margin-top: 0px;
 }
 
-
-
-.education-span {
-	
+.fl-left:nth-child(even){
+	margin-left: 80px;
 }
+
 
 .edication-padding {
 	padding-bottom: 0;
@@ -315,13 +324,50 @@ margin-left: ;
 	margin-top: 7px;
 }
 
-.education-list li {
-	margin-top: 18px;
+.experience-list li {
+	padding-left: 17px;
+	
 }
-.education-list li:first-child {
-	margin-top: 28px;
+.experience-list p {
+	margin-top: 5px;
 }
 
 .education-list {
-	margin-top: 26px;
+	margin-top: 28px ;
+}
+.big-words strong {
+	margin-right: 7px;
+}
+
+.spacer-column {
+	float: left;
+	background-color: red;
+	width: 20px;
+	display: block;
+	visibility: hidden;
+}
+
+.experience {
+	margin-top: 55px;
+}
+
+.experience-list {
+	margin-top: 48px
+}
+
+.software {
+	margin-top: 60px;
+}
+
+.software-block {
+	margin-top: 28px;
+	margin-left: 6px;
+}
+
+
+
+.software-word-pad {
+	margin: 0;
+	margin-top: 14px;
+	margin-bottom: 0px;
 }
